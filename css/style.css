@@ -1,0 +1,79 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estiloTitulo{
+    color: #417D7A;
+    font-family: SquarePeg, cursive;
+    font-size: 50px;
+    font-weight: 300px;
+    background-color: #EDE6DB;
+}
+
+nav{
+    background-color: #1D5C63;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    list-style-type: none;
+    background-color: beige;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+main{
+    display: flex;
+    font-family: 'Square Peg', cursive;
+    font-size: 25px;
+    background-color: #EDE6DB;
+
+}
+
+.parrafoUno{
+    margin: 100px;
+}
+
+
+footer{
+    background-color: #1D5C63;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    padding: 15px;
+    font-family: 'Square Peg', cursive;
+}
+
+.albumFotos{
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.formulario{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
